@@ -1,3 +1,51 @@
 body{
-    background-color: black;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.block .header{
+    padding: 10px;
+    background-color: #263238;
+}
+.block .academic{
+    padding: 10px;
+    background-color: #1565C0;
+}
+.block .experience{
+    padding: 10px;
+    background-color: #42A5F5;
+}
+.block .title{
+    padding: 0px 0px 0px 10px;
+}
+.header div{
+    padding: 40px 0px 0px 10px;
+}
+.header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    margin: 0;
+}
+.header h2{
+    font-weight: normal;
+    margin: 0;
+}
+
+
+li .listItem{
+    display: flex;
+    align-items: center;
+}
+li .listItem span{
+    padding: 0px 0px 0px 10px;
+}
+li .date span{
+    background-color: #607D8B;
+    padding: 5px 5px 5px 0px;
+    border-radius: 4px;
+}
+li .text{
+    padding: 10px 10px 10px 0px;
 }
